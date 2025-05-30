@@ -5,12 +5,12 @@ app = Flask(__name__)
 
 # Dados de exemplo de produtos (simulando um banco de dados)
 products_data = [
-    {"id": "p1", "name": "Camiseta Masculina Básica", "price": 69.90, "image": ""},
-    {"id": "p2", "name": "Tênis de Corrida Feminino", "price": 249.90, "image": "https://via.placeholder.com/250x300/9b59b6/ffffff?text=Tenis+Corrida"},
-    {"id": "p3", "name": "Calça Jeans Slim Fit", "price": 139.90, "image": "https://via.placeholder.com/250x300/34495e/ffffff?text=Calca+Jeans"},
-    {"id": "p4", "name": "Vestido Floral Verão", "price": 189.90, "image": "https://via.placeholder.com/250x300/e67e22/ffffff?text=Vestido+Floral"},
-    {"id": "p5", "name": "Bota Masculina Casual", "price": 329.90, "image": "https://via.placeholder.com/250x300/1abc9c/ffffff?text=Bota+Masculina"},
-    {"id": "p6", "name": "Jaqueta de Couro Feminina", "price": 499.90, "image": "https://via.placeholder.com/250x300/7f8c8d/ffffff?text=Jaqueta+Couro"}
+    {"id": "p1", "name": "Camiseta Masculina Básica", "price": 69.90, "image": "https://i.pinimg.com/736x/a1/9a/58/a19a58c15bbf36bedefaf1e010909bb8.jpg"},
+    {"id": "p2", "name": "Tênis Nike dunk", "price": 989.99, "image": "https://i.pinimg.com/736x/3c/02/95/3c029582cfc9e6922eebd699a52a72b3.jpgs"},
+    {"id": "p3", "name": "Tênis nike jordan 1", "price": 869.99, "image": "https://i.pinimg.com/736x/00/9c/6d/009c6d42586cb9c5371526656377dda5.jpg"},
+    {"id": "p4", "name": "Tênis nike jordan", "price": 469.99, "image": "https://i.pinimg.com/736x/d3/f9/f7/d3f9f7140925513e7bd2f52ed724635f.jpg"},
+    {"id": "p5", "name": "Bota Masculina Casual", "price": 329.90, "image": "https://i.pinimg.com/736x/f8/54/1b/f8541b11c766d4eed484b9c2270fbb42.jpg"},
+    {"id": "p6", "name": "Jaqueta de Couro Feminina", "price": 499.90, "image": "https://i.pinimg.com/736x/f3/bf/f4/f3bff4bb4d1772121b4b227ec306a290.jpg"}
 ]
 
 # Rota para servir o arquivo index.html (página inicial)
