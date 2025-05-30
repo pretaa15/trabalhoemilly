@@ -1,0 +1,125 @@
+/* No seu style.css ou novidades.css */
+
+/* Seção de Hero (Banner) */
+.hero-novidades {
+    background-color: #f8f8f8; /* Uma cor clara de fundo */
+    padding: 60px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.hero-novidades h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.hero-novidades p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Lista de Produtos Novidades */
+.lista-novidades {
+    display: grid; /* Usa CSS Grid para layout flexível */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Colunas responsivas */
+    gap: 30px; /* Espaçamento entre os itens */
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+}
+
+.produto-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que a imagem não saia das bordas arredondadas */
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.produto-item:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+}
+
+.produto-item img {
+    width: 100%;
+    height: 250px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Recorta a imagem para preencher a área */
+    display: block; /* Remove espaço extra abaixo da imagem */
+    border-bottom: 1px solid #eee;
+}
+
+.produto-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 10px 5px 10px;
+}
+
+.produto-item p {
+    font-size: 1em;
+    color: #555;
+    margin: 0 10px 10px 10px;
+}
+
+.produto-item .preco {
+    font-size: 1.3em;
+    color: #007bff; /* Uma cor azul para o preço */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-ver-mais {
+    display: inline-block;
+    background-color: #28a745; /* Botão verde */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-ver-mais:hover {
+    background-color: #218838;
+}
+
+/* Seção de Chamada para Ação */
+.chamada-colecao {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+    margin-top: 40px;
+}
+
+.chamada-colecao h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.chamada-colecao p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.btn-principal {
+    display: inline-block;
+    background-color: #007bff; /* Botão azul */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-principal:hover {
+    background-color: #0056b3;
+}
