@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 'p3',
             name: 'Tênis nike dunk',
             price: 989.99,
-            image: 'https://i.pinimg.com/736x/3c/02/95/3c029582cfc9e6922eebd699a52a72b3.jpgs'
+            image: 'https://i.pinimg.com/736x/47/4a/4d/474a4d3fa66ad51f2d688f66fa8239ea.jpg'
         },
         {
             id: 'p4',
