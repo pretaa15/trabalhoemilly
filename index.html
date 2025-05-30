@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Loja Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="#" class="logo">Sua Loja Fashion</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#roupas">Roupas</a></li>
+                    <li><a href="#calcados">Calçados</a></li>
+                    <li><a href="#promocoes">Promoções</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#" id="cart-icon"><i class="fas fa-shopping-cart"></i> Carrinho (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="hero-banner">
+            <h2>Novidades Chegando!</h2>
+            <p>Descubra as últimas tendências em roupas e calçados para todos os estilos.</p>
+            <a href="#produtos" class="btn primary-btn">Ver Produtos</a>
+        </section>
+
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="product-grid" id="product-list">
+                </div>
+        </section>
+
+        <section id="categorias">
+            <h2>Explorar Categorias</h2>
+            <div class="category-grid">
+                <a href="#roupas" class="category-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Roupas</h3>
+                </a>
+                <a href="#calcados" class="category-card">
+                    <i class="fas fa-shoe-prints"></i>
+                    <h3>Calçados</h3>
+                </a>
+                <a href="#acessorios" class="category-card">
+                    <i class="fas fa-gem"></i>
+                    <h3>Acessórios</h3>
+                </a>
+            </div>
+        </section>
+
+        <section id="promocoes">
+            <h2>Promoções Imperdíveis!</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/250x300/e67e22/ffffff?text=OFERTA!" alt="Camiseta em Promoção">
+                    <h3>Camiseta Estampada</h3>
+                    <p class="price original-price">R$ 79,90</p>
+                    <p class="price promo-price">R$ 49,90</p>
+                    <button class="add-to-cart" data-id="promo1" data-name="Camiseta Estampada" data-price="49.90">Adicionar ao Carrinho</button>
+                </div>
+                 <div class="product-card">
+                    <img src="https://via.placeholder.com/250x300/3498db/ffffff?text=OFERTA!" alt="Tênis em Promoção">
+                    <h3>Tênis Casual</h3>
+                    <p class="price original-price">R$ 199,90</p>
+                    <p class="price promo-price">R$ 129,90</p>
+                    <button class="add-to-cart" data-id="promo2" data-name="Tênis Casual" data-price="129.90">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sua Loja Fashion. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
